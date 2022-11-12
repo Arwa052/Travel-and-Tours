@@ -1,0 +1,213 @@
+@media screen and (max-width: 912px) {
+    .carousel-container{
+        height: 70vh;
+    }
+    .carousel-container h2{
+        font-size: 74px;
+    }
+    .carousel-container h3{
+        font-size: 26px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .grid-container{
+        grid-template-columns: repeat(2, calc(50% - 16.5px));
+    }
+    .list-container{
+        grid-template-columns: repeat(2, calc(50% - 16.5px));
+    }
+    .freedom-content p{
+        width: 60%;
+        margin: 0;
+        text-align: end;
+    }
+    .freedomCircle{
+        margin: 0;
+        margin-right: 80px;
+    }
+    .freedom-content{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 0 80px 0;
+    }
+}
+
+@media screen and (max-width: 912px) and (min-width: 570px) {
+
+    .u-image-1{
+        margin: 105px 12px 0 auto;
+    }
+    .u-image-2 {
+        width: 300px;
+        height: 300px;
+        margin: -769px auto 0 55px;
+    }
+    .u-image-3 {
+        margin: 250px auto 0 60px
+    }
+    .u-shape-1 {
+        margin: -500px auto 0 7px;
+    }
+    .u-shape-2 {
+        margin: 135px 40px 0 auto;
+        border: 35px solid;
+    }
+}
+
+@media screen and (max-width: 540px){
+    ul.menu{
+        display: none;
+    }
+    .carousel-container{
+        height: 90vh;
+    }
+    .carousel-container h2{
+        font-size: 36px;
+        letter-spacing: 2px;
+        margin-top: 16px;
+    }
+    .carousel-container h3{
+        font-size: 22px;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 100% );
+    }
+    .grid-item{
+        padding: 20px;
+    }
+    .grid-item img{
+        width: 75px;
+    }
+    .grid-item h2{
+        font-size: 20px;
+    }
+    .circle-carousel-container{
+        height: 60vh;
+    }
+    .u-image-1{
+        width: 300px;
+        height: 300px;
+        margin: 300px 96px 0 0px;
+    }
+    .u-image-2{
+        width: 225px;
+        height: 225px;
+        margin: -610px auto 0 0;
+    }
+    .u-image-3{
+        width: 225px;
+        height: 225px;
+        border: 15px solid #fff;
+        margin: 335px auto 0 0px;
+    }
+    .u-shape-1{
+        width: 80px;
+        height: 80px;
+        margin: -545px auto 0 15px;
+        color: #f58d54;
+        border-radius: 50%;
+        border: 12px solid;
+    }
+    .u-shape-2{
+        width: 100px;
+        height: 100px;
+        border: 18px solid;
+        margin: 225px 6px 0 auto;
+    }
+    .circle-carousel-content h2{
+        font-size: 38px;
+    }
+    .circle-carousel-content p{
+        width: 100%;    
+        font-size: 18px;
+    }
+    .about-container .heading{
+        font-size: 42px;
+    }
+    .about-container .description{
+        width: 100%;
+    }
+    .about-content-wrapper{
+        /* width: 100%; */
+        grid-template-columns: repeat(1, 100%);
+    }
+    .about-grid-item.bg-white{
+        padding: 30px;
+    }
+    .list-container{
+        grid-template-columns: repeat(1, 100%);
+    }
+    .freedom-container .imgContainer {
+        min-height: auto;
+        margin: 0 0 20px 0;
+    }
+    .freedom-container .imgContainer img{
+        width: 325px;
+        height: 325px;
+    }
+    .freedom-container .imgContainer h2{
+        top: 24%;
+        font-size: 24px;
+    }
+    .freedom-content{
+        flex-direction: column;
+        margin: 0;
+    }
+    .freedom-content p{
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: end
+    }
+    .freedomCircle{
+        border: 12px solid;
+        width: 80px;
+        height: 80px;
+        margin: 10px auto 60px 8px
+    }
+    .gallery-container{
+        grid-template-columns: repeat(1, auto);
+    }
+    .gallery-item{
+        height: 420px;
+    }
+    .contact-container .heading{
+        font-size: 38px;
+    }
+    .input-field{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+@media screen and (max-width: 280px){
+    .u-image-1{
+        width: 245px;
+        height: 245px;
+        margin: 230px 96px 0 0px;
+    }
+    .u-image-2{
+        width: 200px;
+        height: 200px;
+        margin: -480px auto 0 25px;
+    }
+    .u-image-3{
+        width: 180px;
+        height: 180px;
+        border: 10px solid #fff;
+        margin: 226px auto 0 0;
+    }
+    .u-shape-1{
+        margin: -417px auto 0 0px;
+    }
+    .u-shape-2{
+        display: none;
+    }
+    .freedom-container .imgContainer img{
+        width: 180px;
+        height: 180px;
+
+    }
+}
